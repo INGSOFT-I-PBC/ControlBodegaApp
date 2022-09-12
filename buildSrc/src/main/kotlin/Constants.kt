@@ -1,0 +1,12 @@
+object Constants {
+    const val composeCompilerVersion = "1.3.1"
+    const val AGPVersion = "7.2.2"
+    const val kotlinAndroidVersion = "1.5.31"
+    const val kotlinVersion = "1.7.10"
+
+    object Android {
+        const val minVersion = 21
+        const val targetVersion = 33
+        const val compileVersion = targetVersion
+    }
+}
