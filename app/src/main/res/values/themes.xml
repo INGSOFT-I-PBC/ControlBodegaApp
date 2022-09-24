@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.ControlBodega" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+    <style name="Theme.ControlBodega" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="title">@string/no_string</item>
+        <item name="actionBarSize">64dp</item>
+        <item name="actionButtonStyle">@color/black</item>
+        <item name="titleCentered">true</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/primary_text</item>
+        <item name="colorSecondary">@color/secondary</item>
+    </style>
+
+    <style name="Theme.ControlBodega.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="color">@color/primary</item>
+    </style>
+
+    <style name="Theme.ControlBodega.CardView" parent="CardView">
+        <item name="elevation">5dp</item>
     </style>
 </resources>

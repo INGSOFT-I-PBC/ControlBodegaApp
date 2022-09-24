@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ControlBodega</string>
+    <string name="label_drawer_sr">drawer</string>
+    <string name="no_string"> </string>
+
+    <!-- Template -->
+    <string name="template_logo">LOGO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_warehouse">Warehouse:</string>
+    <string name="mock_warehouse">(Something)</string>
 </resources>

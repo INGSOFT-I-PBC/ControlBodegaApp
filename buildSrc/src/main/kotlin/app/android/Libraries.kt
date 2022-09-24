@@ -7,6 +7,10 @@ object Libraries {
     const val androidCore = "androidx.core:core-ktx:${Versions.androidCoreVersion}"
     const val lifecycle = "androidx.lifecycle:lifecycle-common:${Versions.lifecycleVersion}"
     const val activityCompose = "androidx.activity:activity-compose:${Versions.activityComposeVersion}"
+    const val appCompat = "androidx.appcompat:appcompat:1.5.1"
+    const val material = "com.google.android.material:material:1.6.1"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.1.4"
+    const val drawerLayout = "androidx.drawerlayout:drawerlayout:1.1.1"
 
 
     /***********************************

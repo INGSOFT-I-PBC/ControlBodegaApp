@@ -7,4 +7,108 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Material palette color definition -->
+    <color name="primary_light">@color/amber_300</color>
+    <color name="primary">@color/amber_500</color>
+    <color name="primary_dark">@color/amber_600</color>
+    <color name="primary_text">@color/neutral_800</color>
+
+    <color name="secondary_light">@color/gray_400</color>
+    <color name="secondary">@color/gray_700</color>
+    <color name="secondary_dark">@color/gray_900</color>
+    <color name="secondary_text">@color/neutral_300</color>
+
+    <color name="ternary">@color/gray_900</color>
+    <color name="accent">@color/emerald_500</color>
+
+    <!-- Red color -->
+    <color name="red">@color/red_500</color>
+    <color name="red_50">#FEF2F2</color>
+    <color name="red_100">#fee2e2</color>
+    <color name="red_200">#fecaca</color>
+    <color name="red_300">#fca5a5</color>
+    <color name="red_400">#f87171</color>
+    <color name="red_500">#ef4444</color>
+    <color name="red_600">#dc2626</color>
+    <color name="red_700">#b91c1c</color>
+    <color name="red_800">#991b1b</color>
+    <color name="red_900">#7f1d1d</color>
+
+    <!-- Yellow colors -->
+    <color name="yellow">@color/yellow_500</color>
+    <color name="yellow_50">#fefce8</color>
+    <color name="yellow_100">#fef9c3</color>
+    <color name="yellow_200">#fef08a</color>
+    <color name="yellow_300">#fde047</color>
+    <color name="yellow_400">#facc15</color>
+    <color name="yellow_500">#eab308</color>
+    <color name="yellow_600">#ca8a04</color>
+    <color name="yellow_700">#a16207</color>
+    <color name="yellow_800">#854d0e</color>
+    <color name="yellow_900">#713f12</color>
+
+    <!-- Emerald colors -->
+    <color name="emerald">@color/emerald_500</color>
+    <color name="emerald_50">#ecfdf5</color>
+    <color name="emerald_100">#d1fae5</color>
+    <color name="emerald_200">#a7f3d0</color>
+    <color name="emerald_300">#6ee7b7</color>
+    <color name="emerald_400">#34d399</color>
+    <color name="emerald_500">#10b981</color>
+    <color name="emerald_600">#059669</color>
+    <color name="emerald_700">#047857</color>
+    <color name="emerald_800">#065f46</color>
+    <color name="emerald_900">#064e3b</color>
+
+    <!-- Amber colors -->
+    <color name="amber">@color/amber_500</color>
+    <color name="amber_50">#fffbeb</color>
+    <color name="amber_100">#fef3c7</color>
+    <color name="amber_200">#fde68a</color>
+    <color name="amber_300">#fcd34d</color>
+    <color name="amber_400">#fbbf24</color>
+    <color name="amber_500">#f59e0b</color>
+    <color name="amber_600">#d97706</color>
+    <color name="amber_700">#b45309</color>
+    <color name="amber_800">#92400e</color>
+    <color name="amber_900">#78350f</color>
+    <!-- neutral colors -->
+    <color name="neutral">@color/neutral_500</color>
+    <color name="neutral_50">#fafafa</color>
+    <color name="neutral_100">#f5f5f5</color>
+    <color name="neutral_200">#e5e5e5</color>
+    <color name="neutral_300">#d4d4d4</color>
+    <color name="neutral_400">#a3a3a3</color>
+    <color name="neutral_500">#737373</color>
+    <color name="neutral_600">#525252</color>
+    <color name="neutral_700">#404040</color>
+    <color name="neutral_800">#262626</color>
+    <color name="neutral_900">#171717</color>
+    <!-- gray colors -->
+    <color name="gray">@color/gray_500</color>
+    <color name="gray_50">#f9fafb</color>
+    <color name="gray_100">#f3f4f6</color>
+    <color name="gray_200">#e5e7eb</color>
+    <color name="gray_300">#d1d5db</color>
+    <color name="gray_400">#9ca3af</color>
+    <color name="gray_500">#6b7280</color>
+    <color name="gray_600">#4b5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1f2937</color>
+    <color name="gray_900">#111827</color>
+    <!-- slate colors -->
+    <color name="slate">@color/slate_700</color>
+    <color name="slate_50">#f8fafc</color>
+    <color name="slate_100">#f1f5f9</color>
+    <color name="slate_200">#e2e8f0</color>
+    <color name="slate_300">#cbd5e1</color>
+    <color name="slate_400">#94a3b8</color>
+    <color name="slate_500">#64748b</color>
+    <color name="slate_600">#475569</color>
+    <color name="slate_700">#334155</color>
+    <color name="slate_800">#1e293b</color>
+    <color name="slate_900">#0f172a</color>
+
+
 </resources>
