@@ -1,6 +1,7 @@
 package app.android
 
 object Libraries {
+
     /************************************
      *             Core Deps            *
      ************************************/
@@ -11,6 +12,9 @@ object Libraries {
     const val material = "com.google.android.material:material:1.6.1"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.1.4"
     const val drawerLayout = "androidx.drawerlayout:drawerlayout:1.1.1"
+    const val cameraX = "androidx.camera:camera-camera2:${Versions.cameraX}"
+    const val cameraXtensions = "androidx.camera:camera-extensions:${Versions.cameraX}"
+    const val cameraXLifecycle = "androidx.camera:camera-lifecycle:${Versions.cameraX}"
 
 
     /***********************************
@@ -34,6 +38,12 @@ object Libraries {
      ***********************************/
     const val gson = "com.google.code.gson:gson:${Versions.gsonVersion}"
     const val retrofit  = "com.squareup.retrofit2:retrofit:${Versions.retrofitVersion}"
+    val zxing = Zxing
+    object Zxing {
+        const val androidCore = "com.google.zxing:android-core:${Versions.zxingAndroidCore}"
+        const val core = "com.google.zxing:core:${Versions.zxing}"
+        const val javase = "com.google.zxing:javase:${Versions.zxing}"
+    }
 
 
     object Versions {
@@ -44,9 +54,13 @@ object Libraries {
         const val gsonVersion = "2.9.1"
         const val retrofitVersion = "2.9.0"
         const val activityComposeVersion = "1.5.1"
+        const val zxingAndroidCore = "3.3.0"
+        const val zxing = "3.5.0"
+        const val cameraX = "1.1.0"
     }
 
     object Annotations {
+        const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycleVersion}"
 
     }
 
