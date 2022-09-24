@@ -59,6 +59,10 @@ dependencies {
     implementation(app.android.Libraries.gson)
     implementation(app.android.Libraries.composePreview)
     implementation(app.android.Libraries.retrofit)
+    implementation(app.android.Libraries.appCompat)
+    implementation(app.android.Libraries.material)
+    implementation(app.android.Libraries.constraintLayout)
+    implementation(app.android.Libraries.drawerLayout)
 
     testImplementation(app.android.Libraries.junit)
     androidTestImplementation(app.android.Libraries.androidJunit)
