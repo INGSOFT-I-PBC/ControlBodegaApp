@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_circle_size">100dp</dimen>
+    <dimen name="login_circle_icon">25dp</dimen>
+    <dimen name="card_radius">10dp</dimen>
+</resources>
