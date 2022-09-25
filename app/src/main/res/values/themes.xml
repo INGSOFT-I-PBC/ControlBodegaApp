@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.ControlBodega" parent="Theme.AppCompat.DayNight.DarkActionBar">
+<!--parent="Theme.AppCompat.DayNight.DarkActionBar"-->
+    <style name="Theme.ControlBodega" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:statusBarColor">@color/primary</item>
         <item name="title">@string/no_string</item>
         <item name="actionBarSize">64dp</item>
@@ -11,13 +11,33 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/primary_text</item>
         <item name="colorSecondary">@color/secondary</item>
+        <item name="cardCornerRadius">10dp</item>
     </style>
 
-    <style name="Theme.ControlBodega.Toolbar" parent="Widget.AppCompat.Toolbar">
-        <item name="color">@color/primary</item>
+    <style name="Theme.ControlBodega.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="background">@color/primary</item>
     </style>
 
     <style name="Theme.ControlBodega.CardView" parent="CardView">
         <item name="elevation">5dp</item>
+    </style>
+
+    <style name="Theme.ControlBodega.Fullscreen" parent="Theme.ControlBodega">
+        <item name="android:actionBarStyle">@style/Widget.Theme.ControlBodega.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.ControlBodega.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+    
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.ControlBodega.Fullscreen</item>
     </style>
 </resources>
