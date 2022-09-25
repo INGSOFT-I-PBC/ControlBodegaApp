@@ -44,6 +44,7 @@ android {
     }
     buildFeatures {
         compose = true
+        dataBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = Constants.composeCompilerVersion
@@ -53,6 +54,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    namespace = "com.neoterux.controlbodega"
 }
 
 dependencies {
