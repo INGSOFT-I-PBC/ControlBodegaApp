@@ -45,6 +45,7 @@ android {
     buildFeatures {
         compose = true
         dataBinding = true
+        viewBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = Constants.composeCompilerVersion
@@ -77,10 +78,13 @@ dependencies {
         implementation(cameraX)
         implementation(cameraXtensions)
         implementation(cameraXLifecycle)
+        implementation(databindingKtx)
+        implementation(splashScreenAPI)
     }
     // Kapt dependencies
     with(app.android.Libraries.Annotations) {
         kapt(lifecycleCompiler)
+        kapt(databindingCompiler)
     }
 
 

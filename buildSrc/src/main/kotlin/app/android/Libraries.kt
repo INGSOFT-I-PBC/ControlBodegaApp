@@ -1,5 +1,6 @@
 package app.android
 
+@Suppress("unused")
 object Libraries {
 
     /************************************
@@ -15,6 +16,8 @@ object Libraries {
     const val cameraX = "androidx.camera:camera-camera2:${Versions.cameraX}"
     const val cameraXtensions = "androidx.camera:camera-extensions:${Versions.cameraX}"
     const val cameraXLifecycle = "androidx.camera:camera-lifecycle:${Versions.cameraX}"
+    const val databindingKtx = "androidx.databinding:databinding-ktx:${Constants.AGPVersion}"
+    const val splashScreenAPI = "androidx.core:core-splashscreen:${Versions.androidXCoreVersion}"
 
 
     /***********************************
@@ -57,10 +60,12 @@ object Libraries {
         const val zxingAndroidCore = "3.3.0"
         const val zxing = "3.5.0"
         const val cameraX = "1.1.0"
+        const val androidXCoreVersion = "1.0.0"
     }
 
     object Annotations {
         const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycleVersion}"
+        const val databindingCompiler = "androidx.databinding:databinding-compiler:${Constants.AGPVersion}"
 
     }
 
