@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.neoterux.controlbodega.ui.fragments.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_tomaFisicaFragment"
+            app:destination="@id/tomaFisicaFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.neoterux.controlbodega.ui.activities.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/tomaFisicaFragment"
+        android:name="com.neoterux.controlbodega.ui.fragments.TomaFisicaFragment"
+        android:label="fragment_toma_fisica"
+        tools:layout="@layout/fragment_toma_fisica" >
+        <action
+            android:id="@+id/action_tomaFisicaFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_tomaFisicaFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_tomaFisicaFragment_to_scanPreviewFragment"
+            app:destination="@id/scanPreviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scanPreviewFragment"
+        android:name="com.neoterux.controlbodega.ui.fragments.scanPreviewFragment"
+        android:label="fragment_scan_preview"
+        tools:layout="@layout/fragment_scan_preview" />
+</navigation>

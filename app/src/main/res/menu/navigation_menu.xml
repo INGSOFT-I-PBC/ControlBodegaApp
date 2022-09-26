@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="@string/menu_dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_chart_simple"
+        android:iconTint="@color/over_primary"
+        />
+    <item
+        android:id="@+id/nav_physical_inventory"
+        android:title="@string/physical_inventory"
+        android:icon="@drawable/ic_package"
+        android:iconTint="@color/over_primary"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:iconTint="@color/over_primary"/>
+</menu>
