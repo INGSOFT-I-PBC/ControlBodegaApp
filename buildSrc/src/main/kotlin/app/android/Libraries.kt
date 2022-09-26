@@ -14,10 +14,14 @@ object Libraries {
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.1.4"
     const val drawerLayout = "androidx.drawerlayout:drawerlayout:1.1.1"
     const val cameraX = "androidx.camera:camera-camera2:${Versions.cameraX}"
+    const val cameraView = "androidx.camera:camera-view:${Versions.cameraX}"
     const val cameraXtensions = "androidx.camera:camera-extensions:${Versions.cameraX}"
     const val cameraXLifecycle = "androidx.camera:camera-lifecycle:${Versions.cameraX}"
     const val databindingKtx = "androidx.databinding:databinding-ktx:${Constants.AGPVersion}"
     const val splashScreenAPI = "androidx.core:core-splashscreen:${Versions.androidXCoreVersion}"
+    const val navFragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigationVersion}"
+    const val navigationUI = "androidx.navigation:navigation-ui-ktx:${Versions.navigationVersion}"
+    const val fragmentKtx = "androidx.fragment:fragment-ktx:${Versions.fragmentKtxVersion}"
 
 
     /***********************************
@@ -61,6 +65,8 @@ object Libraries {
         const val zxing = "3.5.0"
         const val cameraX = "1.1.0"
         const val androidXCoreVersion = "1.0.0"
+        const val navigationVersion = "2.5.2"
+        const val fragmentKtxVersion = "1.5.3"
     }
 
     object Annotations {

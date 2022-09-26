@@ -77,9 +77,13 @@ dependencies {
         implementation(zxing.javase)
         implementation(cameraX)
         implementation(cameraXtensions)
+        implementation(cameraView)
         implementation(cameraXLifecycle)
         implementation(databindingKtx)
         implementation(splashScreenAPI)
+        implementation(navFragment)
+        implementation(navigationUI)
+        implementation(fragmentKtx)
     }
     // Kapt dependencies
     with(app.android.Libraries.Annotations) {
