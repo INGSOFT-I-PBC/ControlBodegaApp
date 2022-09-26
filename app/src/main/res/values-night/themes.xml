@@ -4,10 +4,33 @@
         <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
         <item name="fullscreenTextColor">@color/light_blue_A400</item>
     </style>
+
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/secondary</item>
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
         <item name="windowSplashScreenAnimationDuration">500</item>
         <item name="postSplashScreenTheme">@style/Theme.ControlBodega</item>
+    </style>
+
+    <style name="Theme.ControlBodega.responsive.Icon" parent="">
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="Theme.ControlBodega.CardView.Secondary" parent="Theme.ControlBodega.CardView">
+        <item name="cardBackgroundColor">@color/slate_800</item>
+        <item name="cardForegroundColor">@color/white</item>
+    </style>
+    <style name="Theme.ControlBodega.CardView.Primary" parent="Theme.ControlBodega.CardView">
+        <item name="cardBackgroundColor">@color/yellow_600</item>
+        <item name="cardForegroundColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ControlBodega.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="textFillColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ControlBodega.CardView.Alt1" parent="Theme.ControlBodega.CardView">
+        <item name="cardBackgroundColor">@color/gray_600</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
     </style>
 </resources>

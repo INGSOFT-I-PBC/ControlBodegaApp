@@ -2,14 +2,38 @@
     <string name="app_name">ControlBodega</string>
     <string name="label_drawer_sr">drawer</string>
     <string name="no_string"> </string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="back_message">Press %d more times to exit</string>
+
     <!-- Login -->
     <string name="label_username">Username</string>
     <string name="hint_username">Username</string>
     <string name="label_password">Password</string>
     <string name="hint_password">Password</string>
     <string name="login">Login</string>
+
     <!-- Main -->
     <string name="dummy_title">LOGO</string>
+    <string name="welcome">Welcome</string>
+    <string name="dummy_username">User Full Name</string>
+    <string name="dummy_warehouse_name">Colorful Warehouse</string>
+    <string name="out_package">Outgoing Packages</string>
+    <string name="in_package">Incomming Packages</string>
+    <string name="zero">0</string>
+
+    <!-- Physical Inventory -->
+    <string name="physical_inventory">Physical Inventory</string>
+    <string name="physical_inventory_warning">
+        To proceed,
+        Select the Icon to start reading the bar code or RFID
+    </string>
+    <string name="scan_button">Start Scanning</string>
+
+    <!-- Menu -->
+    <string name="menu_logout">Logout</string>
+    <string name="menu_dashboard">Home View</string>
+    <string name="menu_physical_inventory">Physical Inv.</string>
 
     <!-- Template -->
     <string name="template_logo">LOGO</string>

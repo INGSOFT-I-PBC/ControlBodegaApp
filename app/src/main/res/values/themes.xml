@@ -2,6 +2,20 @@
 <resources>
 <!--parent="Theme.AppCompat.DayNight.DarkActionBar"-->
     <style name="Theme.ControlBodega" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="title">@string/no_string</item>
+        <item name="actionBarSize">64dp</item>
+        <item name="actionButtonStyle">@color/black</item>
+        <item name="titleCentered">true</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/primary_text</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="cardViewStyle">@style/Theme.ControlBodega.CardView</item>
+    </style>
+
+    <style name="Theme.ControlBodega.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:statusBarColor">@color/primary</item>
         <item name="title">@string/no_string</item>
         <item name="actionBarSize">64dp</item>
@@ -11,7 +25,11 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/primary_text</item>
         <item name="colorSecondary">@color/secondary</item>
-        <item name="cardCornerRadius">10dp</item>
+        <item name="cardViewStyle">@style/Theme.ControlBodega.CardView</item>
+    </style>
+
+    <style name="Theme.ControlBodega.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="textFillColor">@color/black</item>
     </style>
 
     <style name="Theme.ControlBodega.Toolbar" parent="Widget.MaterialComponents.Toolbar">
@@ -19,14 +37,31 @@
     </style>
 
     <style name="Theme.ControlBodega.CardView" parent="CardView">
-        <item name="elevation">5dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="useCompatPadding">true</item>
+        <item name="cardUseCompatPadding">true</item>
     </style>
 
-    <style name="Theme.ControlBodega.Fullscreen" parent="Theme.ControlBodega">
+    <style name="Theme.ControlBodega.CardView.Secondary" parent="Theme.ControlBodega.CardView">
+        <item name="cardBackgroundColor">@color/secondary_dark</item>
+        <item name="cardForegroundColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ControlBodega.CardView.Primary" parent="Theme.ControlBodega.CardView">
+        <item name="cardBackgroundColor">@color/primary</item>
+        <item name="cardForegroundColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ControlBodega.CardView.Alt1" parent="Theme.ControlBodega.CardView">
+        <item name="cardBackgroundColor">@color/secondary</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+    </style>
+
+    <style name="Theme.ControlBodega.Fullscreen" parent="Theme.ControlBodega.NoActionBar">
         <item name="android:actionBarStyle">@style/Widget.Theme.ControlBodega.ActionBar.Fullscreen
         </item>
         <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
     </style>
 
     <style name="ThemeOverlay.ControlBodega.FullscreenContainer" parent="">

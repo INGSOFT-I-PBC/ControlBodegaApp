@@ -8,4 +8,70 @@
         <item name="android:background">@color/black_overlay</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
+    <style name="TextAppearance.TitleBar" parent="TextAppearance.AppCompat.Headline">
+        <item name="fontWeight">900</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+<!-- Headline 0-->
+    <style name="TextAppearance.H0" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="TextAppearance.H0.Bold" parent="TextAppearance.H0">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.H0.ExtraBold" parent="TextAppearance.H0">
+        <item name="fontFamily">@font/inter_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Headline 1 -->
+    <style name="TextAppearance.H1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="TextAppearance.H1.Bold" parent="TextAppearance.H1">
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+    <style name="TextAppearance.H1.ExtraBold" parent="TextAppearance.H1">
+        <item name="fontFamily">@font/inter_black</item>
+    </style>
+
+<!-- Headline 1.5 -->
+    <style name="TextAppearance.H1.5" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextAppearance.H1.5.Bold" parent="TextAppearance.H1.5">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.H1.5.ExtraBold" parent="TextAppearance.H1.5">
+        <item name="fontFamily">@font/inter_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+<!-- Headline 2-->
+    <style name="TextAppearance.H2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="TextAppearance.H2.Bold" parent="TextAppearance.H2">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.H2.ExtraBold" parent="TextAppearance.H2">
+        <item name="fontFamily">@font/inter_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.H3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.H3.Bold" parent="TextAppearance.H3">
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.H3.ExtraBold" parent="TextAppearance.H3">
+        <item name="fontFamily">@font/inter_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
