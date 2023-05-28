@@ -1,6 +1,6 @@
 object Constants {
     const val composeCompilerVersion = "1.3.1"
-    const val AGPVersion = "7.3.0"
+    const val AGPVersion = "7.4.2"
     const val kotlinAndroidVersion = "1.5.31"
     const val kotlinVersion = "1.7.10"
 
