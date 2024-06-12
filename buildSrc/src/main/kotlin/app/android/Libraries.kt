@@ -63,7 +63,7 @@ object Libraries {
         const val activityComposeVersion = "1.5.1"
         const val zxingAndroidCore = "3.3.0"
         const val zxing = "3.5.0"
-        const val cameraX = "1.1.0"
+        const val cameraX = "1.3.4"
         const val androidXCoreVersion = "1.0.0"
         const val navigationVersion = "2.5.2"
         const val fragmentKtxVersion = "1.5.3"
