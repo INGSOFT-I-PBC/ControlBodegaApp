@@ -36,7 +36,7 @@ object Libraries {
      *             Testing             *
      ***********************************/
     const val junit = "junit:junit:${Versions.junitVersion}"
-    const val androidJunit = "androidx.test.ext:junit:1.1.3"
+    const val androidJunit = "androidx.test.ext:junit:1.2.1"
     const val espresso = "androidx.test.espresso:espresso-core:3.4.0"
     const val uiTestJunit = "androidx.compose.ui:ui-test-junit4:${Versions.composeVersion}"
 
