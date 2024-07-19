@@ -7,7 +7,7 @@ buildscript {
         classpath ("com.android.application:com.android.application.gradle.plugin:${Constants.AGPVersion}")
         classpath ("com.android.library:com.android.library.gradle.plugin:${Constants.AGPVersion}")
         classpath ("org.jetbrains.kotlin.android:org.jetbrains.kotlin.android.gradle.plugin:${Constants.kotlinVersion}")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.21")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.25")
     }
 }
 
