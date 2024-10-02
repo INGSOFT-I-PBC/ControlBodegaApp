@@ -66,7 +66,7 @@ object Libraries {
         const val cameraX = "1.1.0"
         const val androidXCoreVersion = "1.0.0"
         const val navigationVersion = "2.5.2"
-        const val fragmentKtxVersion = "1.5.3"
+        const val fragmentKtxVersion = "1.8.4"
     }
 
     object Annotations {
