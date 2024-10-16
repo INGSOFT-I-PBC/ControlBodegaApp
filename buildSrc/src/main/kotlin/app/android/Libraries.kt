@@ -65,7 +65,7 @@ object Libraries {
         const val zxing = "3.5.0"
         const val cameraX = "1.1.0"
         const val androidXCoreVersion = "1.0.0"
-        const val navigationVersion = "2.5.2"
+        const val navigationVersion = "2.8.3"
         const val fragmentKtxVersion = "1.5.3"
     }
 
