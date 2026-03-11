@@ -60,7 +60,7 @@ object Libraries {
         const val junitVersion = "4.13.2"
         const val gsonVersion = "2.9.1"
         const val retrofitVersion = "2.9.0"
-        const val activityComposeVersion = "1.5.1"
+        const val activityComposeVersion = "1.13.0"
         const val zxingAndroidCore = "3.3.0"
         const val zxing = "3.5.0"
         const val cameraX = "1.1.0"
